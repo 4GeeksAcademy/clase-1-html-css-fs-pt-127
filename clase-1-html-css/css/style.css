@@ -1,0 +1,51 @@
+body {
+  background-color: #000; /* fondo negro */
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+p {
+  color: #aaa;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* 🔹 Selector de clase (más específico que etiqueta) */
+.importante {
+  color: #00ffff; /* cian */
+  font-weight: bold;
+}
+.importante {
+  color: rgb(24, 24, 189);
+  font-weight: bold;
+}
+
+/* 🔹 Selector de ID (más específico que clase) */
+#aviso {
+  color: #ffcc00; /* amarillo */
+  font-size: 18px;
+}
+
+/* 🔹 Selector combinado (aún más específico) */
+div#contenedor p.importante {
+  color: #ff66cc; /* rosa */
+}
+
+/* 🔹 Selector con !important (rompe jerarquía normal) */
+.forzado {
+  color: #00ff00 !important; /* verde brillante */
+}
+
+/* Un hover para mostrar una seudoclase */
+p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+p:active {
+  color: #ffffff; /* blanco */
+  transform: scale(0.98);
+}

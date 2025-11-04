@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Jerarquía de Selectores CSS</title>
+  </head>
+  <body>
+    <h1>Ejemplo de Jerarquía de Selectores CSS</h1>
+
+    <p>1️⃣ Este párrafo usa solo el estilo por etiqueta (gris claro).</p>
+
+    <p class="importante">
+      2️⃣ Este tiene clase <code>.importante</code> (color cian).
+    </p>
+
+    <p id="aviso" class="importante">
+      3️⃣ Este tiene ID <code>#aviso</code> (color amarillo).
+    </p>
+
+    <div id="contenedor">
+      <p class="importante">
+        4️⃣ Este está dentro de un div con ID <code>#contenedor</code> y tiene
+        clase <code>.importante</code> (rosa, porque gana el selector
+        combinado).
+      </p>
+    </div>
+
+    <p class="importante forzado">
+      5️⃣ Este tiene clase <code>.importante</code> y <code>.forzado</code> con
+      <code>!important</code> (verde, porque el !important gana).
+    </p>
+
+    <p id="aviso" style="color: red">
+      6️⃣ Este tiene un <code>style</code> en línea (rojo, prioridad máxima sin
+      !important).
+    </p>
+  </body>
+</html>
