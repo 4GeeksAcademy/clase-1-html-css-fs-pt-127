@@ -1,8 +1,5 @@
 title: "Mi sitio"
 description: "Probando el tema minimal mistakes"
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: benbalter/retlab
 plugins:
   - jekyll-remote-theme
-
-# modo oscuro
-minimal_mistakes_skin: "dark"
