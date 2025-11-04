@@ -1,1 +1,5 @@
-theme: minimal-mistakes
+title: "Mi sitio"
+description: "Probando el tema minimal mistakes"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
