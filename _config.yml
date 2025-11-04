@@ -1,5 +1,1 @@
-title: "Mi sitio"
-description: "Probando el tema minimal mistakes"
-remote_theme: benbalter/retlab
-plugins:
-  - jekyll-remote-theme
+theme: jekyll-theme-minimal
